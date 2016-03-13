@@ -245,11 +245,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/millet-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/millet-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/millet-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/samsung/millet-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
-
-# exFAT Support
-PRODUCT_COPY_FILES += \
-    vendor/samsung/matisse-common/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
-    vendor/samsung/matisse-common/proprietary/bin/mount.exfat:system/bin/mount.exfat \
-    vendor/samsung/matisse-common/proprietary/lib/libexfat.so:system/lib/libexfat.so
+    vendor/samsung/millet-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/samsung/millet-common/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
+    vendor/samsung/millet-common/proprietary/bin/mount.exfat:system/bin/mount.exfat \
+    vendor/samsung/millet-common/proprietary/lib/libexfat_utils.so:system/lib/libexfat_utils.so
 
