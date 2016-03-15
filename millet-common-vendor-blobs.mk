@@ -206,7 +206,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/millet-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/millet-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/millet-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/millet-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/millet-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/millet-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/millet-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.msm8226.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -249,4 +253,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/millet-common/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
     vendor/samsung/millet-common/proprietary/bin/mount.exfat:system/bin/mount.exfat \
     vendor/samsung/millet-common/proprietary/lib/libexfat_utils.so:system/lib/libexfat_utils.so
-
